@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED06F1A1E602BB4001DD85A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED06F191E602BB4001DD85A /* AppDelegate.swift */; };
+		9ED06F1C1E602BB4001DD85A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED06F1B1E602BB4001DD85A /* ViewController.swift */; };
+		9ED06F1F1E602BB4001DD85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED06F1D1E602BB4001DD85A /* Main.storyboard */; };
+		9ED06F221E602BB4001DD85A /* Uran_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ED06F201E602BB4001DD85A /* Uran_test.xcdatamodeld */; };
+		9ED06F241E602BB4001DD85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED06F231E602BB4001DD85A /* Assets.xcassets */; };
+		9ED06F271E602BB4001DD85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED06F251E602BB4001DD85A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ED06F161E602BB4001DD85A /* Uran_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uran_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED06F191E602BB4001DD85A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ED06F1B1E602BB4001DD85A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ED06F1E1E602BB4001DD85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED06F211E602BB4001DD85A /* Uran_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Uran_test.xcdatamodel; sourceTree = "<group>"; };
+		9ED06F231E602BB4001DD85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED06F261E602BB4001DD85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ED06F281E602BB4001DD85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED06F131E602BB4001DD85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED06F0D1E602BB4001DD85A = {
+			isa = PBXGroup;
+			children = (
+				9ED06F181E602BB4001DD85A /* Uran_test */,
+				9ED06F171E602BB4001DD85A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED06F171E602BB4001DD85A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED06F161E602BB4001DD85A /* Uran_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED06F181E602BB4001DD85A /* Uran_test */ = {
+			isa = PBXGroup;
+			children = (
+				9ED06F191E602BB4001DD85A /* AppDelegate.swift */,
+				9ED06F1B1E602BB4001DD85A /* ViewController.swift */,
+				9ED06F1D1E602BB4001DD85A /* Main.storyboard */,
+				9ED06F231E602BB4001DD85A /* Assets.xcassets */,
+				9ED06F251E602BB4001DD85A /* LaunchScreen.storyboard */,
+				9ED06F281E602BB4001DD85A /* Info.plist */,
+				9ED06F201E602BB4001DD85A /* Uran_test.xcdatamodeld */,
+			);
+			path = Uran_test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED06F151E602BB4001DD85A /* Uran_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED06F2B1E602BB4001DD85A /* Build configuration list for PBXNativeTarget "Uran_test" */;
+			buildPhases = (
+				9ED06F121E602BB4001DD85A /* Sources */,
+				9ED06F131E602BB4001DD85A /* Frameworks */,
+				9ED06F141E602BB4001DD85A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uran_test;
+			productName = Uran_test;
+			productReference = 9ED06F161E602BB4001DD85A /* Uran_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED06F0E1E602BB4001DD85A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kiril Trembovetskiy";
+				TargetAttributes = {
+					9ED06F151E602BB4001DD85A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33HPK7564T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9ED06F111E602BB4001DD85A /* Build configuration list for PBXProject "Uran_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED06F0D1E602BB4001DD85A;
+			productRefGroup = 9ED06F171E602BB4001DD85A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED06F151E602BB4001DD85A /* Uran_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED06F141E602BB4001DD85A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED06F271E602BB4001DD85A /* LaunchScreen.storyboard in Resources */,
+				9ED06F241E602BB4001DD85A /* Assets.xcassets in Resources */,
+				9ED06F1F1E602BB4001DD85A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED06F121E602BB4001DD85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED06F1C1E602BB4001DD85A /* ViewController.swift in Sources */,
+				9ED06F221E602BB4001DD85A /* Uran_test.xcdatamodeld in Sources */,
+				9ED06F1A1E602BB4001DD85A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ED06F1D1E602BB4001DD85A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED06F1E1E602BB4001DD85A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ED06F251E602BB4001DD85A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED06F261E602BB4001DD85A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ED06F291E602BB4001DD85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ED06F2A1E602BB4001DD85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED06F2C1E602BB4001DD85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33HPK7564T;
+				INFOPLIST_FILE = Uran_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trembovetskiy-Kiril.Uran-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9ED06F2D1E602BB4001DD85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33HPK7564T;
+				INFOPLIST_FILE = Uran_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trembovetskiy-Kiril.Uran-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED06F111E602BB4001DD85A /* Build configuration list for PBXProject "Uran_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED06F291E602BB4001DD85A /* Debug */,
+				9ED06F2A1E602BB4001DD85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED06F2B1E602BB4001DD85A /* Build configuration list for PBXNativeTarget "Uran_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED06F2C1E602BB4001DD85A /* Debug */,
+				9ED06F2D1E602BB4001DD85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ED06F201E602BB4001DD85A /* Uran_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ED06F211E602BB4001DD85A /* Uran_test.xcdatamodel */,
+			);
+			currentVersion = 9ED06F211E602BB4001DD85A /* Uran_test.xcdatamodel */;
+			path = Uran_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ED06F0E1E602BB4001DD85A /* Project object */;
+}
